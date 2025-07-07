@@ -1,0 +1,30 @@
+{
+  "name": "dicoding_tugasakhir_belajarback-endpemuladenganjavascript",
+  "version": "1.0.0",
+  "description": "API sederhana untuk mengelola koleksi buku dengan fitur CRUD (Create, Read, Update, Delete).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fauzihiz/Dicoding_TugasAKhir_BelajarBack-EndPemuladenganJavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fauzihiz/Dicoding_TugasAKhir_BelajarBack-EndPemuladenganJavaScript/issues"
+  },
+  "homepage": "https://github.com/fauzihiz/Dicoding_TugasAKhir_BelajarBack-EndPemuladenganJavaScript#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.4.0",
+    "nanoid": "^3.3.11"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "eslint": "^9.30.1",
+    "globals": "^16.3.0"
+  }
+}
